@@ -1,6 +1,6 @@
 Digitalounce Core version 0.21.2.1 is now available from:
 
- <https://download.digitalounce.org/digitalounce-0.21.2.1/>.
+ <https://download.ounce.digital/digitalounce-0.21.2.1/>.
 
 This includes a critical bug fix for upgraded wallets to receive via MWEB.
 

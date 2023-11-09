@@ -1,6 +1,6 @@
 Digitalounce Core version 0.16.0 is now available from:
 
-  <https://download.digitalounce.org/digitalounce-0.16.0/>
+  <https://download.ounce.digital/digitalounce-0.16.0/>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.

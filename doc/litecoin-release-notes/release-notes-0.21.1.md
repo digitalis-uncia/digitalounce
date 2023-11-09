@@ -5,7 +5,7 @@ Summary:
 ==============
 In this update to Digitalounce Core, Taproot has been activated, enhancing Digitalounce’s security, privacy and scalability. Digitalounce Core 0.21.1 is the most significant update in years - with performance improvements, new features (like Taproot), bug fixes and updated translations - and sets the foundations for MWEB’s imminent arrival. 
 
-Digitalounce Core 0.21.1 is available now, right here: <https://download.digitalounce.org/digitalounce-0.21.1/>.
+Digitalounce Core 0.21.1 is available now, right here: <https://download.ounce.digital/digitalounce-0.21.1/>.
 
 As always, we welcome the expertise of the community. To report bugs please use the issue tracker at GitHub - <https://github.com/digitalounce-project/digitalounce/issues > - and to get security and update notifications subscribe via <https://groups.google.com/forum/#!forum/digitalounce-dev>. 
 

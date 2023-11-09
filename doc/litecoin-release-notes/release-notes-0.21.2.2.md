@@ -1,6 +1,6 @@
 Digitalounce Core version 0.21.2.2 is now available from:
 
- <https://download.digitalounce.org/digitalounce-0.21.2.2/>.
+ <https://download.ounce.digital/digitalounce-0.21.2.2/>.
 
 This is a new patch version release that includes important security updates.
 

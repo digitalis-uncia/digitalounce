@@ -75,7 +75,7 @@ def download_binary(tag, args) -> int:
     os = 'linux' # TODO
     tarball = 'digitalounce-{tag}-{platform}.tar.gz'.format(
         tag=tag[1:], platform=args.platform)
-    tarballUrl = 'https://download.digitalounce.org/{release_path}/{os}/{tarball}'.format(
+    tarballUrl = 'https://download.ounce.digital/{release_path}/{os}/{tarball}'.format(
         release_path=release_path, os=os, tarball=tarball)
 
     print('Fetching: {tarballUrl}'.format(tarballUrl=tarballUrl))

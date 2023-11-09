@@ -43,7 +43,7 @@ static const int TOOLTIP_WRAP_THRESHOLD = 80;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Digitalounce"
-#define QAPP_ORG_DOMAIN "digitalounce.org"
+#define QAPP_ORG_DOMAIN "ounce.digital"
 #define QAPP_APP_NAME_DEFAULT "Digitalounce-Qt"
 #define QAPP_APP_NAME_TESTNET "Liteocin-Qt-testnet"
 #define QAPP_APP_NAME_SIGNET "Digitalounce-Qt-signet"

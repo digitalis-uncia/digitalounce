@@ -1,6 +1,6 @@
 Digitalounce Core version 0.21.2 is now available from:
 
- <https://download.digitalounce.org/digitalounce-0.21.2/>.
+ <https://download.ounce.digital/digitalounce-0.21.2/>.
 
 This is the largest update ever, providing full node, wallet, and mining support for MWEB.
 

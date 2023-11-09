@@ -2,7 +2,7 @@
 
 General digitalounce questions and/or support requests and are best directed to the [digitalouncetalk.io forums](https://digitalouncetalk.io/).
 
-For reporting security issues, please contact the Digitalounce developers on the #digitalounce-dev Freenode IRC channel or alternatively you can email us at contact@digitalounce.org.
+For reporting security issues, please contact the Digitalounce developers on the #digitalounce-dev Freenode IRC channel or alternatively you can email us at contact@ounce.digital.
 
 If the node is "stuck" during sync or giving "block checksum mismatch" errors, please ensure your hardware is stable by running memtest and observe CPU temperature with a load-test tool such as linpack before creating an issue!
 
