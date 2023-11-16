@@ -113,15 +113,7 @@ public:
         m_assumed_blockchain_size = 40;
         m_assumed_chain_state_size = 2;
 
-        genesis = CreateGenesisBlock(1668155688, 2084885055, 0x1e0ffff0, 1, 0 * COIN);
-		//nTime, nNonce, nBits, nVersion, genesisReward); 0x207fffff
-		
-		//std::cout << "main new hashMerkleRoot hash: " << genesis.hashMerkleRoot.ToString() << std::endl;
-     //   std::cout << "Genesis Block Nonce: 0x" << genesis.nNonce << std::endl;
-     //  std::cout << std::endl<< "hashGenesisBlock hash: " << genesis.GetHash().ToString() << std::endl;
-     //  std::cout << std::endl<< "hashGenesisBlock POW hash: " << genesis.GetPoWHash().ToString() << std::endl;
-        
-      
+        genesis = CreateGenesisBlock(1668155688, 2084885055, 0x1e0ffff0, 1, 0 * COIN);     
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0xca214e6a98d38c62c785884c207386d836c983efdf868c5c14943df9ce16c015"));
         assert(genesis.hashMerkleRoot == uint256S(" 0x64bd4674c8a837508990713e2b009bdee93b97bc64ceaf5b01cf68c8295044ac"));
@@ -155,15 +147,16 @@ public:
         checkpointData = {
             {
                 {  0, uint256S("0xca214e6a98d38c62c785884c207386d836c983efdf868c5c14943df9ce16c015")},
+				{  23604, uint256S("0x468ab243933c03793a65a742efa6299b3b1b178e68582216795c548e7594e664")},
                 
             }
         };
 
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats 4096 62e2e3d21343a00994d38a63524867507dbeee6850e8fbf02e9c47a3ccf82f24
-            /* nTime    */ 1641142661,
-            /* nTxCount */ 100225898,
-            /* dTxRate  */ 1.17733189266096
+            /* nTime    */ 1700166434,
+            /* nTxCount */ 25404,
+            /* dTxRate  */ 0.01254056850708881
         };
     }
 };
@@ -220,12 +213,6 @@ public:
         m_assumed_chain_state_size = 1;
 
         genesis = CreateGenesisBlock(1668155688, 1967241, 0x1e0ffff0, 1, 0 * COIN);
-		
-//	std::cout << "test new hashMerkleRoot hash: " << genesis.hashMerkleRoot.ToString() << std::endl;
-   //     std::cout << "Genesis Block Nonce: 0x" << genesis.nNonce << std::endl;
-   //     std::cout << std::endl<< "hashGenesisBlock hash: " << genesis.GetHash().ToString() << std::endl;
-    //    std::cout << std::endl<< "hashGenesisBlock POW hash: " << genesis.GetPoWHash().ToString() << std::endl;
-  
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0xb2046eb8b0bf915dcc4834dcf774cbc1b0ea307a3611f4663a1723c90ae46cb1"));
         assert(genesis.hashMerkleRoot == uint256S("0x64bd4674c8a837508990713e2b009bdee93b97bc64ceaf5b01cf68c8295044ac"));
@@ -255,14 +242,15 @@ public:
         checkpointData = {
             {
                 {0, uint256S("0xb2046eb8b0bf915dcc4834dcf774cbc1b0ea307a3611f4663a1723c90ae46cb1")},
+				{6986, uint256S("0xb1aabfdbe67a02e4dcebc010ddf5080b3b152d1cba9fb4e5ffbb2f5f1d901f68")},
             }
         };
 
         chainTxData = ChainTxData{
             // Data from RPC: getchaintxstats 4096 36d8ad003bac090cf7bf4e24fbe1d319554c8933b9314188d6096ac12648764d
-            /* nTime    */ 1607986972,
-            /* nTxCount */ 4229067,
-            /* dTxRate  */ 0.06527021772939347,
+            /* nTime    */ 1700166812,
+            /* nTxCount */ 23324,
+            /* dTxRate  */ 0.01885046285556789,
         };
     }
 };
@@ -321,11 +309,6 @@ public:
         UpdateActivationParametersFromArgs(args);
 
         genesis = CreateGenesisBlock(1668155688, 2446, 0x207fffff, 1, 0 * COIN);
-		//std::cout << "regtest new hashMerkleRoot hash: " << genesis.hashMerkleRoot.ToString() << std::endl;
-    //    std::cout << "Genesis Block Nonce: 0x" << genesis.nNonce << std::endl;
-      //  std::cout << std::endl<< "hashGenesisBlock hash: " << genesis.GetHash().ToString() << std::endl;
-      //  std::cout << std::endl<< "hashGenesisBlock POW hash: " << genesis.GetPoWHash().ToString() << std::endl;
-    
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x707cc4e397067827f6023cddc2cda685cf024e4ac160e85f73af9ad8fd580ffc"));
         assert(genesis.hashMerkleRoot == uint256S("0x64bd4674c8a837508990713e2b009bdee93b97bc64ceaf5b01cf68c8295044ac"));
